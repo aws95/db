@@ -1,10 +1,9 @@
 const express = require("express");
 const router = express.Router();
-const Model = require("../models/Model");
+const Model = require("../models/Vetements");
 const mongoose = require("mongoose");
 
 let db = mongoose.connection;
-
 //get a specific collection
 router.get("/:collection", async (req, res) => {
   try {
@@ -20,7 +19,7 @@ router.get("/:collection", async (req, res) => {
   }
 });
 
-//create a specific collection
+//create a specific collection 
 router.post("/", async (req, res) => {
   const product = req.body.level2.level3.level4;
   const model = new Model({

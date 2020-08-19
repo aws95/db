@@ -14,8 +14,12 @@ app.use(bodyParser.json());
 //import routes
 
 const modelRoute = require('./routes/model');
+const vetRoute = require('./routes/vetements');
+const chauRoute = require('./routes/chaussures');
 
 app.use('/model', modelRoute);
+app.use('/vetements', vetRoute);
+app.use('/chaussures', chauRoute);
 
 dotenv.config();
 

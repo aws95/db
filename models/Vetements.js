@@ -88,6 +88,6 @@ const level1Schema = mongoose.Schema({
   level2: [level2Schema],
 });
 
-const Level1 = mongoose.model("Level1", level1Schema);
+const Vetements = mongoose.model("Vetements", level1Schema);
 
-module.exports = Level1;
+module.exports = Vetements;

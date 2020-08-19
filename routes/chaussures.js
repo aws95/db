@@ -4,7 +4,6 @@ const Model = require("../models/Model");
 const mongoose = require("mongoose");
 
 let db = mongoose.connection;
-
 //get a specific collection
 router.get("/:collection", async (req, res) => {
   try {
@@ -80,44 +79,18 @@ router.delete("/:collection/:collectionID/:_id", async (req, res) => {
   }
 });
 
-//update specific collection's level 
+//update specific collection's level
 
 router.patch("/:collectionID/:level", async (req, res) => {
   switch (req.params.level) {
-    case "4":
-      try {
-        const product = req.body.level2.level3.level4;
-        const model = new Model({
-          title: req.body.title,
-          level2: {
-            title: req.body.level2.title,
-            level3: {
-              title: req.body.level2.level3.title,
-              level4: [product],
-            },
-          },
-        });
-        await db.collection(req.body.title).updateOne(
-          { _id: mongoose.Types.ObjectId(req.params.collectionID) },
-          {
-            $push: {
-              "level2.0.level3.0.level4": model.level2[0].level3[0].level4[0],
-            },
-          }
-        );
-        res.send("product added to DB!");
-      } catch (err) {
-        res.json({ message: err });
-      }
-      break;
     case "3":
       try {
-        const level_3 = req.body.level2.level3;
+        const product = req.body.level2.level3;
         const model = new Model({
           title: req.body.title,
           level2: {
             title: req.body.level2.title,
-            level3: [level_3],
+            level3: [product],
           },
         });
         await db.collection(req.body.title).updateOne(
@@ -128,7 +101,7 @@ router.patch("/:collectionID/:level", async (req, res) => {
             },
           }
         );
-        res.send("level 3 modified!");
+        res.send("product added to DB!");
       } catch (err) {
         res.json({ message: err });
       }
@@ -154,6 +127,5 @@ router.patch("/:collectionID/:level", async (req, res) => {
       }
   }
 });
-
 
 module.exports = router;

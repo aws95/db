@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const level4Schema = mongoose.Schema({
+const level3Schema = mongoose.Schema({
   produit: {
     type: String,
     required: true,
@@ -66,13 +66,6 @@ const level4Schema = mongoose.Schema({
     required: true,
   },
 });
-const level3Schema = mongoose.Schema({
-  title: {
-    type: String,
-    required: true,
-  },
-  level4: [level4Schema],
-});
 const level2Schema = mongoose.Schema({
   title: {
     type: String,
@@ -88,6 +81,6 @@ const level1Schema = mongoose.Schema({
   level2: [level2Schema],
 });
 
-const Level1 = mongoose.model("Level1", level1Schema);
+const Chaussures = mongoose.model("Chaussures", level1Schema);
 
-module.exports = Level1;
+module.exports = Chaussures;
