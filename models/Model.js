@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const level4Schema = mongoose.Schema({
-  produit: {
+  name: {
     type: String,
     required: true,
   },
@@ -48,23 +48,7 @@ const level4Schema = mongoose.Schema({
   disponibilite: {
     type: Boolean,
     required: true,
-  },
-  date_dispo: {
-    type: Date,
-    required: false,
-  },
-  cree_le: {
-    type: Date,
-    required: true,
-  },
-  mise_a_jour_a: {
-    type: Date,
-    required: true,
-  },
-  sites_web: {
-    type: String,
-    required: true,
-  },
+  }
 });
 const level3Schema = mongoose.Schema({
   title: {

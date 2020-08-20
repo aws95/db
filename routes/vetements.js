@@ -19,7 +19,7 @@ router.get("/:collection", async (req, res) => {
   }
 });
 
-//create a specific collection 
+//create a specific collection
 router.post("/", async (req, res) => {
   const product = req.body.level2.level3.level4;
   const model = new Model({
@@ -79,7 +79,7 @@ router.delete("/:collection/:collectionID/:_id", async (req, res) => {
   }
 });
 
-//update specific collection's level 
+//update specific collection's level
 
 router.patch("/:collectionID/:level", async (req, res) => {
   switch (req.params.level) {
@@ -154,5 +154,36 @@ router.patch("/:collectionID/:level", async (req, res) => {
   }
 });
 
+//add product to a specific level's category
+
+router.patch("/:collectionID/:level/:category", async (req, res) => {
+  try {
+    const product = req.body.level2.level3.level4;
+    const model = new Model({
+      title: req.body.title,
+      level2: {
+        title: req.body.level2.title,
+        level3: {
+          title: req.body.level2.level3.title,
+          level4: [product],
+        },
+      },
+    });
+    let add = await db.collection(req.body.title).updateOne(
+      {
+        _id: mongoose.Types.ObjectId(req.params.collectionID),
+        "level2.0.level3.title": req.params.category,
+      },
+      {
+        $push: {
+          "level2.0.level3.$.level4": model.level2[0].level3[0].level4[0],
+        },
+      }
+    );
+    res.send("product added to DB!");
+  } catch (err) {
+    res.json({ message: err });
+  }
+});
 
 module.exports = router;

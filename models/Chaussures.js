@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
-const level3Schema = mongoose.Schema({
-  produit: {
+const level4Schema = mongoose.Schema({
+  name: {
     type: String,
     required: true,
   },
@@ -48,23 +48,14 @@ const level3Schema = mongoose.Schema({
   disponibilite: {
     type: Boolean,
     required: true,
-  },
-  date_dispo: {
-    type: Date,
-    required: false,
-  },
-  cree_le: {
-    type: Date,
-    required: true,
-  },
-  mise_a_jour_a: {
-    type: Date,
-    required: true,
-  },
-  sites_web: {
+  }
+});
+const level3Schema = mongoose.Schema({
+  title: {
     type: String,
     required: true,
   },
+  level4: [level4Schema],
 });
 const level2Schema = mongoose.Schema({
   title: {
@@ -80,7 +71,14 @@ const level1Schema = mongoose.Schema({
   },
   level2: [level2Schema],
 });
+const level0Schema = mongoose.Schema({
+  title: {
+    type: String,
+    required: true,
+  },
+  level1: [level1Schema],
+});
 
-const Chaussures = mongoose.model("Chaussures", level1Schema);
+const Chaussures = mongoose.model("Chaussures", level0Schema);
 
 module.exports = Chaussures;

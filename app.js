@@ -4,12 +4,16 @@ const dotenv = require('dotenv');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const cors = require('cors');
+//const methodOverride = require("method-override");
+//const path = require("path");
 
 
 
 //middleweare to parse all the data going to database + always before routes 
 app.use(cors());
 app.use(bodyParser.json());
+//app.use(methodOverride("_method"));
+//app.set("view engine", "ejs");
 
 //import routes
 

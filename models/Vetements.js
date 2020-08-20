@@ -1,8 +1,12 @@
 const mongoose = require("mongoose");
 
 const level4Schema = mongoose.Schema({
-  produit: {
+  name: {
     type: String,
+    required: true,
+  },
+  id: {
+    type: Number,
     required: true,
   },
   sku: {
@@ -31,7 +35,7 @@ const level4Schema = mongoose.Schema({
   },
   prix_special: {
     type: Number,
-    required: true,
+    required: false,
   },
   visibilite: {
     type: String,
@@ -47,22 +51,6 @@ const level4Schema = mongoose.Schema({
   },
   disponibilite: {
     type: Boolean,
-    required: true,
-  },
-  date_dispo: {
-    type: Date,
-    required: false,
-  },
-  cree_le: {
-    type: Date,
-    required: true,
-  },
-  mise_a_jour_a: {
-    type: Date,
-    required: true,
-  },
-  sites_web: {
-    type: String,
     required: true,
   },
 });
