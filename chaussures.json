@@ -1,0 +1,250 @@
+{
+  "_id": "5f3e7ccd571a5d3f986a7228",
+  "title": "chaussures",
+  "level2": [
+    {
+      "_id": "5f3e7ccd571a5d3f986a7229",
+      "title": "homme",
+      "level3": [
+        {
+          "_id": "5f3e7ccd571a5d3f986a722a",
+          "title": "runnunig et trail",
+          "level4": [
+            {
+              "_id": "5f3e7ccd571a5d3f986a722b",
+              "name": "Ravenna 11",
+              "id": 240853,
+              "sku": "1203181B480",
+              "url_key": "brooks-ravenna-11-bleu-femme",
+              "fabricant": "Brooks",
+              "type": "configurable",
+              "nom_jeu_attr": "shoes",
+              "prix": 130,
+              "prix_special": 0,
+              "visibilite": "catalogue,recherche",
+              "statut": true,
+              "stock_disponible": 0,
+              "disponibilite": true
+            },
+            {
+              "_id": "5f3e7d82571a5d3f986a722f",
+              "name": "Divide",
+              "id": 240853,
+              "sku": "1103331D075",
+              "url_key": "brooks-divide-noir-homme",
+              "fabricant": "Brooks",
+              "type": "configurable",
+              "nom_jeu_attr": "shoes",
+              "prix": 110,
+              "prix_special": 0,
+              "visibilite": "catalogue,recherche",
+              "statut": true,
+              "stock_disponible": 0,
+              "disponibilite": true
+            },
+            {
+              "_id": "5f3e7dd2571a5d3f986a7233",
+              "name": "Caldera",
+              "id": 245923,
+              "sku": "1203161B061",
+              "url_key": "brooks-caldera-4-noir-rouge-femme",
+              "fabricant": "Brooks",
+              "type": "configurable",
+              "nom_jeu_attr": "shoes",
+              "prix": 140,
+              "prix_special": 0,
+              "visibilite": "catalogue,recherche",
+              "statut": true,
+              "stock_disponible": 0,
+              "disponibilite": true
+            }
+          ]
+        },
+        {
+          "_id": "5f3e7e88571a5d3f986a7236",
+          "title": "Cyclisme et VTT",
+          "level4": [
+            {
+              "_id": "5f3e7e88571a5d3f986a7237",
+              "name": "MTB Tiger",
+              "id": 252252,
+              "sku": "SID17012818-078-45",
+              "url_key": "sid17012818-078-45",
+              "fabricant": "Sidi",
+              "type": "configurable",
+              "nom_jeu_attr": "shoes",
+              "prix": 389.95,
+              "prix_special": 0,
+              "visibilite": "individuellement",
+              "statut": true,
+              "stock_disponible": 2,
+              "disponibilite": true
+            },
+            {
+              "_id": "5f3ea9c7257e2e5bce0b093b",
+              "name": "Prolight Techlace",
+              "id": 262656,
+              "sku": "GIR17012819000",
+              "url_key": "chaussure-velo-route-homme-giro-prolight-techlace-noir",
+              "fabricant": "Giro",
+              "type": "configurable",
+              "nom_jeu_attr": "shoes",
+              "prix": 399.95,
+              "prix_special": 0,
+              "visibilite": "catalogue,recherche",
+              "statut": true,
+              "stock_disponible": 0,
+              "disponibilite": true
+            },
+            {
+              "_id": "5f3eaa24257e2e5bce0b093f",
+              "name": "SIXTY WHITE BLACK",
+              "id": 262656,
+              "sku": "SID20012814012-48",
+              "url_key": "sid20012814012-48",
+              "fabricant": "Sidi",
+              "type": "simple",
+              "nom_jeu_attr": "shoes",
+              "prix": 339.95,
+              "prix_special": 0,
+              "visibilite": "individuellement",
+              "statut": true,
+              "stock_disponible": 0,
+              "disponibilite": false
+            }
+          ]
+        },
+        {
+          "_id": "5f3eaab6257e2e5bce0b0942",
+          "title": "Rondonnée et Alpinisme ",
+          "level4": [
+            {
+              "_id": "5f3eaab6257e2e5bce0b0943",
+              "name": "S-Lab RX 3.0 Racing",
+              "id": 266411,
+              "sku": "328068-48",
+              "url_key": "328068-48",
+              "fabricant": "S-Lab",
+              "type": "simple",
+              "nom_jeu_attr": "shoes",
+              "prix": 80,
+              "prix_special": 0,
+              "visibilite": "individuellement",
+              "statut": true,
+              "stock_disponible": 9,
+              "disponibilite": true
+            },
+            {
+              "_id": "5f3eab3b257e2e5bce0b0947",
+              "name": "Explorer Lo",
+              "id": 266411,
+              "sku": "2107147935",
+              "url_key": "chaussures-de-hiking-homme-lowa-explorer-lo-noir",
+              "fabricant": "Lowa",
+              "type": "configurable",
+              "nom_jeu_attr": "shoes",
+              "prix": 149,
+              "prix_special": 134,
+              "visibilite": "catalogue,recherche",
+              "statut": true,
+              "stock_disponible": 0,
+              "disponibilite": true
+            },
+            {
+              "_id": "5f3eab80257e2e5bce0b094b",
+              "name": "Explorer Gore-Tex Mid",
+              "id": 266458,
+              "sku": "207186909",
+              "url_key": "chaussures-de-randonnee-femme-lowa-explorer-gore-tex-mid-bleu-marine",
+              "fabricant": "Lowa",
+              "type": "configurable",
+              "nom_jeu_attr": "shoes",
+              "prix": 199,
+              "prix_special": 179,
+              "visibilite": "catalogue,recherche",
+              "statut": true,
+              "stock_disponible": 0,
+              "disponibilite": true
+            }
+          ]
+        },
+        {
+          "_id": "5f3eabc4257e2e5bce0b094e",
+          "title": "Training et crossfit",
+          "level4": [
+            {
+              "_id": "5f3eabc4257e2e5bce0b094f",
+              "name": "Nano X",
+              "id": 267179,
+              "sku": "EF7291-47",
+              "url_key": "ef7291-47",
+              "fabricant": "Reebok",
+              "type": "configurable",
+              "nom_jeu_attr": "shoes",
+              "prix": 129,
+              "prix_special": 0,
+              "visibilite": "catalogue,recherche",
+              "statut": true,
+              "stock_disponible": 0,
+              "disponibilite": true
+            },
+            {
+              "_id": "5f3eac12257e2e5bce0b0953",
+              "name": "Tribase Reign 2",
+              "id": 269270,
+              "sku": "3022613-301",
+              "url_key": "under-armour-tribase-reign-2-kaki-homme",
+              "fabricant": "Under Armor",
+              "type": "configurable",
+              "nom_jeu_attr": "shoes",
+              "prix": 120,
+              "prix_special": 84,
+              "visibilite": "catalogue,recherche",
+              "statut": true,
+              "stock_disponible": 0,
+              "disponibilite": true
+            }
+          ]
+        },
+        {
+          "_id": "5f3eacda257e2e5bce0b095a",
+          "title": "Natation et recuperation",
+          "level4": [
+            {
+              "_id": "5f3eacda257e2e5bce0b095b",
+              "name": "Watergrip Thong",
+              "id": 271722,
+              "sku": "412771",
+              "url_key": "tongs-homme-arena-watergrip-thong-bleu",
+              "fabricant": "Arena",
+              "type": "configurable",
+              "nom_jeu_attr": "shoes",
+              "prix": 25,
+              "prix_special": 17,
+              "visibilite": "catalogue,recherche",
+              "statut": true,
+              "stock_disponible": 0,
+              "disponibilite": true
+            },
+            {
+              "_id": "5f3ead18257e2e5bce0b095f",
+              "name": "Speedo Slide",
+              "id": 271750,
+              "sku": "12-229-0001",
+              "url_key": "claquettes-homme-speedo-slide-noir",
+              "fabricant": "Speedo",
+              "type": "configurable",
+              "nom_jeu_attr": "textile",
+              "prix": 25,
+              "prix_special": 17,
+              "visibilite": "catalogue,recherche",
+              "statut": true,
+              "stock_disponible": 0,
+              "disponibilite": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

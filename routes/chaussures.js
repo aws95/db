@@ -142,58 +142,58 @@ router.patch("/:collectionID/:level", async (req, res) => {
         res.json({ message: err });
       }
       break;
-      case "2":
-        try {
-          const level_3 = req.body.level1.level2.level3;
-          const model = new Model({
-            title: req.body.title,
-            level1: {
-              title: req.body.level1.title,
-              level2: {
-                title: req.body.level1.level2.title,
-                level3: [level_3],
-              },
+    case "2":
+      try {
+        const level_3 = req.body.level1.level2.level3;
+        const model = new Model({
+          title: req.body.title,
+          level1: {
+            title: req.body.level1.title,
+            level2: {
+              title: req.body.level1.level2.title,
+              level3: [level_3],
             },
-          });
-          await db.collection(req.body.title).updateOne(
-            { _id: mongoose.Types.ObjectId(req.params.collectionID) },
-            {
-              $push: {
-                "level1.0.level2.1.level3": model.level1[0].level2[0].level3[0],
-              },
-            }
-          );
-          res.send("level 3 modified!");
-        } catch (err) {
-          res.json({ message: err });
-        }
-        break;
-        case "1":
-          try {
-            const level_3 = req.body.level1.level2.level3;
-            const model = new Model({
-              title: req.body.title,
-              level1: {
-                title: req.body.level1.title,
-                level2: {
-                  title: req.body.level1.level2.title,
-                  level3: [level_3],
-                },
-              },
-            });
-            await db.collection(req.body.title).updateOne(
-              { _id: mongoose.Types.ObjectId(req.params.collectionID) },
-              {
-                $push: {
-                  "level1.0.level2.2.level3": model.level1[0].level2[0].level3[0],
-                },
-              }
-            );
-            res.send("level 3 modified!");
-          } catch (err) {
-            res.json({ message: err });
+          },
+        });
+        await db.collection(req.body.title).updateOne(
+          { _id: mongoose.Types.ObjectId(req.params.collectionID) },
+          {
+            $push: {
+              "level1.0.level2.1.level3": model.level1[0].level2[0].level3[0],
+            },
           }
-          break;
+        );
+        res.send("level 3 modified!");
+      } catch (err) {
+        res.json({ message: err });
+      }
+      break;
+    case "1":
+      try {
+        const level_3 = req.body.level1.level2.level3;
+        const model = new Model({
+          title: req.body.title,
+          level1: {
+            title: req.body.level1.title,
+            level2: {
+              title: req.body.level1.level2.title,
+              level3: [level_3],
+            },
+          },
+        });
+        await db.collection(req.body.title).updateOne(
+          { _id: mongoose.Types.ObjectId(req.params.collectionID) },
+          {
+            $push: {
+              "level1.0.level2.2.level3": model.level1[0].level2[0].level3[0],
+            },
+          }
+        );
+        res.send("level 3 modified!");
+      } catch (err) {
+        res.json({ message: err });
+      }
+      break;
     default:
       try {
         const level_2 = req.body.level1.level2;
@@ -289,7 +289,7 @@ router.patch("/:collectionID/:level/:category", async (req, res) => {
         res.json({ message: err });
       }
       break;
-      case "1":
+    case "1":
       try {
         const product = req.body.level1.level2.level3.level4;
         const model = new Model({

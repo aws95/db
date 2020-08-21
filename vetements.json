@@ -1,0 +1,597 @@
+{
+  "_id": "5f3eb58598cb6863978a9223",
+  "title": "vetements",
+  "level1": [
+    {
+      "_id": "5f3eb58598cb6863978a9224",
+      "title": "hommes",
+      "level2": [
+        {
+          "_id": "5f3eb58598cb6863978a9225",
+          "title": "hautes",
+          "level3": [
+            {
+              "_id": "5f3eb58598cb6863978a9226",
+              "title": "veste doudoune",
+              "level4": [
+                {
+                  "_id": "5f3eb58598cb6863978a9227",
+                  "name": "Veste R3 Gore Tex I Partial",
+                  "sku": "1006249908-XXL",
+                  "url_key": "1006249908-xxl",
+                  "fabricant": "Gore Wear",
+                  "type": "configurable",
+                  "nom_jeu_attr": "textile",
+                  "prix": 149,
+                  "prix_special": 0,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3eb9427da44966164994d4",
+                  "name": "Veste A Capuche R7 Partial Gore Tex I",
+                  "sku": "100459990R",
+                  "url_key": "veste-homme-gore-wear-a-capuche-r7-partial-tex-i-noir-gris",
+                  "fabricant": "Gore Wear",
+                  "type": "configurable",
+                  "nom_jeu_attr": "textile",
+                  "prix": 189,
+                  "prix_special": 0,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3eb97c7da44966164994d9",
+                  "name": "Veste A Capuche R3 Gore Tex Active",
+                  "sku": "100550990N",
+                  "url_key": "veste-homme-gore-wear-a-capuche-r3-tex-active-noir-bleu",
+                  "fabricant": "Gore Wear",
+                  "type": "configurable",
+                  "nom_jeu_attr": "textile",
+                  "prix": 199,
+                  "prix_special": 0,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                }
+              ]
+            },
+            {
+              "_id": "5f3eb9e57da44966164994dd",
+              "title": "maillot manches longues et sweatshirts",
+              "level4": [
+                {
+                  "_id": "5f3eb9e57da44966164994de",
+                  "name": "Maillot Zippé Mid",
+                  "sku": "1005309900",
+                  "url_key": "maillot-homme-gore-wear-zippe-mid-noir",
+                  "fabricant": "Gore Wear",
+                  "type": "configurable",
+                  "nom_jeu_attr": "textile",
+                  "prix": 79,
+                  "prix_special": 0,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3eba327da44966164994e3",
+                  "name": "Maillot R3 Partial Gws",
+                  "sku": "100287ATAR",
+                  "url_key": "maillot-homme-gore-wear-r3-partial-gws-vert",
+                  "fabricant": "Gore Wear",
+                  "type": "configurable",
+                  "nom_jeu_attr": "textile",
+                  "prix": 139,
+                  "prix_special": 0,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3eba5c7da44966164994e8",
+                  "name": "Maillot Manch L R5 Gws",
+                  "sku": "100285AHAU",
+                  "url_key": "maillot-homme-gore-wear-manch-l-r5-gws-bleu-fonce",
+                  "fabricant": "Gore Wear",
+                  "type": "configurable",
+                  "nom_jeu_attr": "textile",
+                  "prix": 169,
+                  "prix_special": 0,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                }
+              ]
+            },
+            {
+              "_id": "5f3eba967da44966164994ec",
+              "title": "t-shirts maillots zippés et debardeurs",
+              "level4": [
+                {
+                  "_id": "5f3eba967da44966164994ed",
+                  "name": "Maillot R5",
+                  "sku": "1006149908",
+                  "url_key": "t-shirt-homme-gore-wear-maillo-r5-noir-jaune-fluo",
+                  "fabricant": "Gore Wear",
+                  "type": "configurable",
+                  "nom_jeu_attr": "textile",
+                  "prix": 55,
+                  "prix_special": 0,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3ebadf7da44966164994f2",
+                  "name": "Rc Games Print Logo Tank",
+                  "sku": "FU1787",
+                  "url_key": "debardeur-homme-reebok-rc-games-print-logo-tank-bleu-fonce",
+                  "fabricant": "Rebook",
+                  "type": "configurable",
+                  "nom_jeu_attr": "textile",
+                  "prix": 25,
+                  "prix_special": 0,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3ebb0a7da44966164994f7",
+                  "name": "Wor Sup Ss Graphic Tee",
+                  "sku": "FK6219",
+                  "url_key": "t-shirt-homme-reebok-wor-sup-ss-graphic-ee-noir",
+                  "fabricant": "Rebook",
+                  "type": "configurable",
+                  "nom_jeu_attr": "textile",
+                  "prix": 28,
+                  "prix_special": 0,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                }
+              ]
+            },
+            {
+              "_id": "5f3ebb657da44966164994fb",
+              "title": "pantalons de jogging",
+              "level4": [
+                {
+                  "_id": "5f3ebb657da44966164994fc",
+                  "name": "Pantalon R5 Gore Tex I",
+                  "sku": "1006619900",
+                  "url_key": "pantalon-homme-gore-wear-r5-tex-i-noir",
+                  "fabricant": "Gore Wear",
+                  "type": "configurable",
+                  "nom_jeu_attr": "textile",
+                  "prix": 129,
+                  "prix_special": 0,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3ebbd27da4496616499506",
+                  "name": "M Swift Pants",
+                  "sku": "7430040002",
+                  "url_key": "pantalon-homme-black-diamond-m-swift-pants-noir",
+                  "fabricant": "Black Dimond",
+                  "type": "configurable",
+                  "nom_jeu_attr": "textile",
+                  "prix": 160,
+                  "prix_special": 144,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3ebc227da449661649950b",
+                  "name": "Anchor Stretch Pants",
+                  "sku": "75012860100",
+                  "url_key": "pantalon-homme-black-diamond-anchor-stretch-pants-rouge",
+                  "fabricant": "Black Dimond",
+                  "type": "configurable",
+                  "nom_jeu_attr": "textile",
+                  "prix": 100,
+                  "prix_special": 60,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                }
+              ]
+            },
+            {
+              "_id": "5f3ebc667da449661649950f",
+              "title": "shorts et cuissards",
+              "level4": [
+                {
+                  "_id": "5f3ebc667da4496616499510",
+                  "name": "Wor Woven Short",
+                  "sku": "FP9110",
+                  "url_key": "short-homme-reebok-wor-woven-noir",
+                  "fabricant": "Reebok",
+                  "type": "configurable",
+                  "nom_jeu_attr": "textile",
+                  "prix": 29,
+                  "prix_special": 0,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3ebcb07da4496616499515",
+                  "name": "Rc Epic Base Short Lg Br",
+                  "sku": "FS7652-XL",
+                  "url_key": "fs7652-xl",
+                  "fabricant": "Reebok",
+                  "type": "simple",
+                  "nom_jeu_attr": "textile",
+                  "prix": 49,
+                  "prix_special": 0,
+                  "visibilite": "individuellement",
+                  "statut": true,
+                  "stock_disponible": 2,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3ebd207da449661649951a",
+                  "name": "Saturday Short",
+                  "sku": "FQ4707-XL",
+                  "url_key": "fq4707-xl",
+                  "fabricant": "Adidas",
+                  "type": "simple",
+                  "nom_jeu_attr": "textile",
+                  "prix": 39,
+                  "prix_special": 0,
+                  "visibilite": "individuellement",
+                  "statut": true,
+                  "stock_disponible": 2,
+                  "disponibilite": true
+                }
+              ]
+            },
+            {
+              "_id": "5f3ebd5e7da449661649951e",
+              "title": "cuissards et pantalons",
+              "level4": [
+                {
+                  "_id": "5f3ebd5e7da449661649951f",
+                  "name": "Trail Racing Short",
+                  "sku": "AM00008B990-XL",
+                  "url_key": "am00008b990-xl",
+                  "fabricant": "Compressport",
+                  "type": "simple",
+                  "nom_jeu_attr": "textile",
+                  "prix": 60,
+                  "prix_special": 0,
+                  "visibilite": "individuellement",
+                  "statut": true,
+                  "stock_disponible": 2,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3ebda47da4496616499524",
+                  "name": "Hale cuissard",
+                  "sku": "CR1907152-999900-XXL",
+                  "url_key": "cr1907152-999900-xxl",
+                  "fabricant": "Craft",
+                  "type": "simple",
+                  "nom_jeu_attr": "textile",
+                  "prix": 130,
+                  "prix_special": 0,
+                  "visibilite": "individuellement",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": false
+                },
+                {
+                  "_id": "5f3ebde27da4496616499529",
+                  "name": "Josephine",
+                  "sku": "BS-JOSEPHINE-B",
+                  "url_key": "cuissard-homme-cafe-du-cycliste-josephine-noi",
+                  "fabricant": "Café du Cycliste",
+                  "type": "simple",
+                  "nom_jeu_attr": "textile",
+                  "prix": 165,
+                  "prix_special": 0,
+                  "visibilite": "individuellement",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_id": "5f3ebe7e7da449661649952c",
+          "title": "bas",
+          "level3": [
+            {
+              "_id": "5f3ebe7e7da449661649952d",
+              "title": "combinaisons neoprene et trifonctions",
+              "level4": [
+                {
+                  "_id": "5f3ebe7e7da449661649952e",
+                  "name": "Dave Scott Tri Suit",
+                  "sku": "DS19TS",
+                  "url_key": "trifonction-homme-huub-dave-scott-tri-suit-noir-bleu",
+                  "fabricant": "Huub",
+                  "type": "configurable",
+                  "nom_jeu_attr": "textile",
+                  "prix": 199,
+                  "prix_special": 149,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3ec0f3d673bd69c40a2f57",
+                  "name": "Trisuit ST 2.0 Front Zip",
+                  "sku": "1509723-L",
+                  "url_key": "1509723-l",
+                  "fabricant": "Arena",
+                  "type": "simple",
+                  "nom_jeu_attr": "textile",
+                  "prix": 150,
+                  "prix_special": 0,
+                  "visibilite": "individuellement",
+                  "statut": true,
+                  "stock_disponible": 6,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3ec14cd673bd69c40a2f5c",
+                  "name": "Rocket ",
+                  "sku": "SFWETROCM20",
+                  "url_key": "trifonction-homme-sailfish-rocket-noir",
+                  "fabricant": "Sailfish",
+                  "type": "configurable",
+                  "nom_jeu_attr": "textile",
+                  "prix": 369,
+                  "prix_special": 276,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                }
+              ]
+            },
+            {
+              "_id": "5f3ec3c517bc196b084d7204",
+              "title": "maillot de bain ",
+              "level4": [
+                {
+                  "_id": "5f3ec3c517bc196b084d7205",
+                  "name": "Team Stripe Low Waist Short ",
+                  "sku": "1280415-95",
+                  "url_key": "1280415-95",
+                  "fabricant": "Arena",
+                  "type": "simple",
+                  "nom_jeu_attr": "textile",
+                  "prix": 37,
+                  "prix_special": 0,
+                  "visibilite": "individuellement",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3ec46017bc196b084d720a",
+                  "name": "Team Fit Short",
+                  "sku": "3123500-95",
+                  "url_key": "3123500-95",
+                  "fabricant": "Arena",
+                  "type": "simple",
+                  "nom_jeu_attr": "textile",
+                  "prix": 33,
+                  "prix_special": 0,
+                  "visibilite": "individuellement",
+                  "statut": true,
+                  "stock_disponible": 1,
+                  "disponibilite": true
+                }
+              ]
+            },
+            {
+              "_id": "5f3ec4d817bc196b084d720e",
+              "title": "chaussettes manchons et jambieres",
+              "level4": [
+                {
+                  "_id": "5f3ec4d817bc196b084d720f",
+                  "name": "Chaussettes Mid Run/Trail Up Activ",
+                  "sku": "034501M-XL-43/46",
+                  "url_key": "034501m-xl-43-46",
+                  "fabricant": "Thuasne",
+                  "type": "simple",
+                  "nom_jeu_attr": "textile",
+                  "prix": 29,
+                  "prix_special": 0,
+                  "visibilite": "individuellement",
+                  "statut": true,
+                  "stock_disponible": 3,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3ec54317bc196b084d7214",
+                  "name": "Chaussettes longues Run/Trail Up Activ (Normale)",
+                  "sku": "034401MN-XL-39/42",
+                  "url_key": "034401mn-xl-39-42",
+                  "fabricant": "Thuasne",
+                  "type": "simple",
+                  "nom_jeu_attr": "textile",
+                  "prix": 49,
+                  "prix_special": 0,
+                  "visibilite": "individuellement",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_id": "5f3ec65b34e4d46c4ecda8e4",
+          "title": "sous vetements",
+          "level3": [
+            {
+              "_id": "5f3ec65b34e4d46c4ecda8e5",
+              "title": "sous vetements de sport",
+              "level4": [
+                {
+                  "_id": "5f3ec65b34e4d46c4ecda8e6",
+                  "name": "Performance Light Suw Bottom Boxer",
+                  "sku": "188102-20678-XXL",
+                  "url_key": "188102-20678-xxl",
+                  "fabricant": "Odlo",
+                  "type": "simple",
+                  "nom_jeu_attr": "textile",
+                  "prix": 30,
+                  "prix_special": 0,
+                  "visibilite": "individuellement",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3ec72e901e416cdc379ff8",
+                  "name": "Quest Boxer brief Fly",
+                  "sku": "SXBB70FNMC-XXL",
+                  "url_key": "sxbb70fnmc-xxl",
+                  "fabricant": "Saxx",
+                  "type": "simple",
+                  "nom_jeu_attr": "textile",
+                  "prix": 30,
+                  "prix_special": 0,
+                  "visibilite": "individuellement",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3ec774901e416cdc379ffd",
+                  "name": "RTech Boxer",
+                  "sku": "621/104-XL",
+                  "url_key": "621-104-xl",
+                  "fabricant": "BV Sportt",
+                  "type": "simple",
+                  "nom_jeu_attr": "textile",
+                  "prix": 26,
+                  "prix_special": 0,
+                  "visibilite": "individuellement",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                }
+              ]
+            },
+            {
+              "_id": "5f3ec7b4901e416cdc37a001",
+              "title": "bonnets bandeaux et casquetts",
+              "level4": [
+                {
+                  "_id": "5f3ec7b4901e416cdc37a002",
+                  "name": "Pro racing Cap",
+                  "sku": "CU00003B501",
+                  "url_key": "casquette-compressport-pro-racing-cap-bleu",
+                  "fabricant": "Compressport",
+                  "type": "simple",
+                  "nom_jeu_attr": "textile",
+                  "prix": 29,
+                  "prix_special": 0,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3ec7ea901e416cdc37a007",
+                  "name": "Headband On/Off",
+                  "sku": "CU00009B503",
+                  "url_key": "bandeau-compressport-headband-on-off-bleu-vert",
+                  "fabricant": "Compressport",
+                  "type": "simple",
+                  "nom_jeu_attr": "textile",
+                  "prix": 14,
+                  "prix_special": 0,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3ec82e901e416cdc37a00c",
+                  "name": "Ceramicool Pro Cap",
+                  "sku": "762510-21900",
+                  "url_key": "casquette-odlo-ceramicool-pro-cap-bleu",
+                  "fabricant": "Odlo",
+                  "type": "simple",
+                  "nom_jeu_attr": "textile",
+                  "prix": 30,
+                  "prix_special": 21,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                }
+              ]
+            },
+            {
+              "_id": "5f3ec87b901e416cdc37a010",
+              "title": "gants et manchettes",
+              "level4": [
+                {
+                  "_id": "5f3ec87b901e416cdc37a011",
+                  "name": "Manchettes M Thermo",
+                  "sku": "1003939900",
+                  "url_key": "manchettes-gore-wear-m-thermo-noir",
+                  "fabricant": "Gore Wear",
+                  "type": "configurable",
+                  "nom_jeu_attr": "textile",
+                  "prix": 35,
+                  "prix_special": 0,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 0,
+                  "disponibilite": true
+                },
+                {
+                  "_id": "5f3ec8b9901e416cdc37a016",
+                  "name": "XLC CG-S08 GANTS ENFANT VELCRO CAR",
+                  "sku": "2500131511",
+                  "url_key": "mitaines-homme-xlc-cg-s08-gants-enfant-velcro-car-bleu-ciel",
+                  "fabricant": "XLC",
+                  "type": "simple",
+                  "nom_jeu_attr": "textile",
+                  "prix": 9,
+                  "prix_special": 0,
+                  "visibilite": "catalogue,recherche",
+                  "statut": true,
+                  "stock_disponible": 2,
+                  "disponibilite": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
