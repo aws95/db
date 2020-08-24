@@ -1,6 +1,9 @@
 const express = require("express");
 const router = express.Router();
-const Model = require("../models/Model");
+const Level_1 = require("../../models/Referenced/Level1");
+const Level_2 = require("../../models/Referenced/Level2");
+const Level_3 = require("../../models/Referenced/Level3");
+const Level_4 = require("../../models/Referenced/Level4");
 const mongoose = require("mongoose");
 
 let db = mongoose.connection;
@@ -21,23 +24,77 @@ router.get("/:collection", async (req, res) => {
 });
 
 //create a specific collection
-router.post("/", async (req, res) => {
-  const product = req.body.level2.level3.level4;
-  const model = new Model({
-    title: req.body.title,
-    level2: {
-      title: req.body.level2.title,
-      level3: {
-        title: req.body.level2.level3.title,
-        level4: [product],
-      },
-    },
-  });
-  try {
-    const savedModel = await db.collection(req.body.title).insertOne(model);
-    res.json(savedModel);
-  } catch (err) {
-    res.json({ message: err });
+router.post("/:level", async (req, res) => {
+  switch (req.params.level) {
+    case "4":
+      const product = new Level_4({
+        name: req.body.name,
+        sku: req.body.sku,
+        url_key: req.body.url_key,
+        fabricant: req.body.fabricant,
+        type: req.body.type,
+        nom_jeu_attr: req.body.nom_jeu_attr,
+        prix: req.body.prix,
+        prix_special: req.body.prix_special,
+        visibilite: req.body.visibilite,
+        statut: req.body.statut,
+        stock_disponible: req.body.stock_disponible,
+        disponibilite: req.body.disponibilite,
+        level_3: req.body.level_3,
+      });
+      try {
+        const savedModel = await db.collection("products").insertOne(product);
+        res.json(savedModel);
+      } catch (err) {
+        res.json({ message: err });
+      }
+      break;
+    case "3":
+      /*try {
+        const savedModel = await Level_3.create({
+          title: req.body.title,
+        });
+        db
+          .collection("products")
+          .findOne({ title: req.body.title })
+          .populate("level4")
+          .exec(function (err, story) {
+            if (err) return handleError(err);
+            console.log("The author is %s", story.author.name);
+            // prints "The author is Ian Fleming"
+          }),
+          res.json(savedModel);
+      } catch (err) {
+        res.json({ message: err });
+      }*/
+      const oo = await db
+       res.json(oo);
+      break;
+    case "2":
+      try {
+        const savedModel = await Level_2.create({
+          title: req.body.title,
+          level3: db.collection("Level_3").findOne({ title: req.body.title }),
+        });
+        res.json(savedModel);
+      } catch (err) {
+        res.json({ message: err });
+      }
+      break;
+    case "1":
+      try {
+        const savedModel = await Level_1.create({
+          title: req.body.title,
+          level2: db.collection("Level_2").findOne({ title: req.body.title }),
+        });
+        res.json(savedModel);
+      } catch (err) {
+        res.json({ message: err });
+      }
+      break;
+
+    default:
+      break;
   }
 });
 
@@ -80,7 +137,7 @@ router.delete("/:collection/:collectionID/:_id", async (req, res) => {
   }
 });
 
-//update specific collection's level 
+//update specific collection's level
 
 router.patch("/:collectionID/:level", async (req, res) => {
   switch (req.params.level) {
@@ -154,6 +211,5 @@ router.patch("/:collectionID/:level", async (req, res) => {
       }
   }
 });
-
 
 module.exports = router;

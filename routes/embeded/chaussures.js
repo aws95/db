@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Model = require("../models/Chaussures");
+const Model = require("../../models/Embeded/Chaussures");
 const mongoose = require("mongoose");
 
 let db = mongoose.connection;

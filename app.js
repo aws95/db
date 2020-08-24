@@ -1,15 +1,13 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-const dotenv = require('dotenv');
-const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
-const cors = require('cors');
+const dotenv = require("dotenv");
+const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
+const cors = require("cors");
 //const methodOverride = require("method-override");
 //const path = require("path");
 
-
-
-//middleweare to parse all the data going to database + always before routes 
+//middleweare to parse all the data going to database + always before routes
 app.use(cors());
 app.use(bodyParser.json());
 //app.use(methodOverride("_method"));
@@ -17,28 +15,32 @@ app.use(bodyParser.json());
 
 //import routes
 
-const modelRoute = require('./routes/model');
-const vetRoute = require('./routes/vetements');
-const chauRoute = require('./routes/chaussures');
+const embededRoute = require("./routes/embeded/model");
+const vetRoute = require("./routes/embeded/vetements");
+const chauRoute = require("./routes/embeded/chaussures");
+const refRoute = require("./routes/referenced/refe");
 
-app.use('/model', modelRoute);
-app.use('/vetements', vetRoute);
-app.use('/chaussures', chauRoute);
+app.use("/model", embededRoute);
+app.use("/vetements", vetRoute);
+app.use("/chaussures", chauRoute);
+app.use("/referenced", refRoute);
 
 dotenv.config();
 
-//connect to database 
+//connect to database
 
-mongoose.connect(process.env.DB_CONNECT, { useNewUrlParser: true, useUnifiedTopology: true }, () => console.log('connected to database'));
+mongoose.connect(
+  process.env.DB_CONNECT,
+  { useNewUrlParser: true, useUnifiedTopology: true },
+  () => console.log("connected to database")
+);
 
-//creating routes 
+//creating routes
 
-app.get('/', (req, res) => {
-    res.send('we are on !');
+app.get("/", (req, res) => {
+  res.send("we are on !");
 });
 
+//start listening to the server
 
-
-//start listening to the server 
-
-app.listen(3000);
+app.listen(9000);
