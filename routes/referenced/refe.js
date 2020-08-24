@@ -67,8 +67,15 @@ router.post("/:level", async (req, res) => {
       } catch (err) {
         res.json({ message: err });
       }*/
-      const oo = await db
-       res.json(oo);
+      console.log(req.body.title);
+      db.collection("products").find({}, { projection: { level_3: req.body.title } })
+      .toArray()
+        .then((items) => {
+          console.log(`Successfully found ${items.length} documents.`);
+          items.forEach(console.log);
+          return items;
+        })
+        .catch((err) => console.error(`Failed to find documents: ${err}`));
       break;
     case "2":
       try {
