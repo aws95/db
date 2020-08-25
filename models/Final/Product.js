@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const level_4Schema = mongoose.Schema({
+const productSchema = mongoose.Schema({
   name: {
     type: String,
     required: true,
@@ -52,12 +52,20 @@ const level_4Schema = mongoose.Schema({
     type: Boolean,
     required: true,
   },
-  level_3: {
+  gender: {
+    type: String,
+    required: true,
+  },
+  category: {
+    type: String,
+    required: true,
+  },
+  family: {
     type: String,
     required: true,
   },
 });
 
-const Level_4 = mongoose.model("Level_4", level_4Schema);
+const Product = mongoose.model("Product", productSchema);
 
-module.exports = Level_4;
+module.exports = Product;

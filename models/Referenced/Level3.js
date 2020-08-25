@@ -5,6 +5,10 @@ const level_3Schema = mongoose.Schema({
     type: String,
     required: true,
   },
+  level_2: {
+    type: String,
+    required: true,
+  },
   level4: [{ type: mongoose.Schema.Types.ObjectId, ref: "Level4" }],
 });
 
